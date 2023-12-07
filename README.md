@@ -35,8 +35,12 @@ Then, go to the repo's "Settings" page, and the "Branches" section. From there, 
 
 Answer the following questions:
 
-1. What is a "branch name pattern", and how it can be used?
+1.  Q: What is a "branch name pattern", and how it can be used?
+    A: With branch name pattern the user can decide which branches are affected, eg. a branch protection rule with the branch name pattern *dev* affects all branches containing the word dev in it's name.
 
-2. If you enable the option "Require a pull request before merging" for a branch, can you make commits to it? Why? Can you push the commits into the branch? Why?
+2.  Q: If you enable the option "Require a pull request before merging" for a branch, can you make commits to it? Why? Can you push the commits into the branch? Why?
+    A: The user cannot make commits to a branch that is protected with the "Require a pull request before merging" enabled. The user has to first make commits to a non-protected branch and then make a pull request to a branch with the protection. This is useful for example when pushing to a live branch which contents are used and seen by end-users. Other developers then have to approve the commits through the pull request before changes are released. 
 
-3. What is the difference in locking a branch vs. requiring a pull request for it?
+3.  Q: What is the difference in locking a branch vs. requiring a pull request for it?
+    A: A locked branch is read only. Nobody can make changes to it. A branch that requires a pull request just requires others to approve commits before they are pushed to it. 
+
