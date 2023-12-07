@@ -44,3 +44,19 @@ Answer the following questions:
 3.  Q: What is the difference in locking a branch vs. requiring a pull request for it?
     A: A locked branch is read only. Nobody can make changes to it. A branch that requires a pull request just requires others to approve commits before they are pushed to it. 
 
+# Practice 3 - Pull Requests in GitHub
+
+Pull Requests or "PRs" (also merge requests) are a feature in Git based version control systems, including GitHub.
+Pull Requests allow asking other team members for feedback on code coming in to the system from a separate branch.
+
+Practice creating and completing pull requests. Start with a GitHub repo, that you have cloned locally. Create
+a new branch locally, commit some files into it, and then push it to GitHub.
+
+Now, open your web browser, and navigate to your GitHub repo. At the top, you can see a navigation item called "Pull requests".
+Create a new pull request for merging your new branch to any other branch, say, "main" or "dev".
+
+Answer the following questions:
+
+1. Can you use Pull Requests as a solo developer? Is there any benefit in this?
+2. Assume you have already created a pull request. What happens if you push additional commits to the same branch?
+3. What are "tags", and how can they be useful in pull request handling?
