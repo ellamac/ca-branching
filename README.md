@@ -1,4 +1,4 @@
-# ca-branching
+# Practice 1 - Git branching
 Let's explore the branching feature of Git, called "haara" in Finnish. Start by initializing an empty Git
 repo (repository) or use a suitable existing repo. Then, save a few files there using the commit command.
 
@@ -20,4 +20,23 @@ Once you are done, perform the following steps:
 5.  Q: Return to the "development" branch. Have your changes been preserved?
     A: yes!!
 
-Note: if you have already practices this using the command-line Git, 
+5. Return to the "development" branch. Have your changes been preserved?
+
+Note: if you have already practices this using the command-line Git, repeat the above steps using Visual Studio Code's user interface (not the built-in terminal).
+
+# Practice 2 - GitHub branch policies
+
+Investigate a GitHub branch policying feature called "branch protection rules":
+https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches
+
+Use an existing repo on GitHub, or create a new one for this practice. Create at least two branches into the repo, say "main" and "dev".
+
+Then, go to the repo's "Settings" page, and the "Branches" section. From there, you can add new branch protection policies.
+
+Answer the following questions:
+
+1. What is a "branch name pattern", and how it can be used?
+
+2. If you enable the option "Require a pull request before merging" for a branch, can you make commits to it? Why? Can you push the commits into the branch? Why?
+
+3. What is the difference in locking a branch vs. requiring a pull request for it?
