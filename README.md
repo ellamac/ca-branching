@@ -4,10 +4,12 @@ repo (repository) or use a suitable existing repo. Then, save a few files there 
 
 Once you are done, perform the following steps:
 
-1. What command do you use to find out the name of the branch that is currently active?
+1.  Q: What command do you use to find out the name of the branch that is currently active?
+    A: I can see it in the bottom-left -corner of the VSCode window.
 
-2. Create a new branch named "development", and set it as the active branch.
-
+2.  Create a new branch named "development", and set it as the active branch.
+    source control > ... > branch > create branch from
+    
 3. Edit the files and make a commit of the changes.
 
 4. Return to the original branch, e.g., "main". Do you see the changes you made in the files?
