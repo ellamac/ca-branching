@@ -57,6 +57,8 @@ Create a new pull request for merging your new branch to any other branch, say, 
 
 Answer the following questions:
 
-1. Can you use Pull Requests as a solo developer? Is there any benefit in this?
-2. Assume you have already created a pull request. What happens if you push additional commits to the same branch?
+1.  Q: Can you use Pull Requests as a solo developer? Is there any benefit in this?
+    A: Yes you can. With pull requests it can be easier to verify changes and make sure nothing unwanted is pushed to the main branch.
+2.  Q: Assume you have already created a pull request. What happens if you push additional commits to the same  branch?
+    A: 
 3. What are "tags", and how can they be useful in pull request handling?
