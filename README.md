@@ -57,6 +57,11 @@ Create a new pull request for merging your new branch to any other branch, say, 
 
 Answer the following questions:
 
-1. Can you use Pull Requests as a solo developer? Is there any benefit in this?
-2. Assume you have already created a pull request. What happens if you push additional commits to the same branch?
-3. What are "tags", and how can they be useful in pull request handling?
+1.  Q: Can you use Pull Requests as a solo developer? Is there any benefit in this?
+    A: Yes and it can help noticing changes in your code and verifying that only wanted changes are pushed. It also gives another opportunity to cancel pushes if you accidentally pushed bad code.
+2.  Q: Assume you have already created a pull request. What happens if you push additional commits to the same branch?
+    A: If I created a pull request but haven't merged it yet, the github page checks if the request conflicts with the branch everytime you visit the pull req. If the branch you're making the pull req to has been changed after you initially made a branch from it, it will alert about conflicts you have to solve.
+
+3.  Q: What are "tags", and how can they be useful in pull request handling?
+    A: Tags or labels can help teams understand each others pull reqs. Tags can be for example 'fix', 'bug', 'feature', 'need help', ect to tell other developers what the changes in that pull req do or what it is for.
+
